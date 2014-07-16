@@ -63,15 +63,15 @@
   <ItemGroup>
     <Reference Include="Microsoft.Build.Engine" />
     <Reference Include="RabbitMQ.Client">
-      <HintPath>..\..\Ref\RabbitMQ.Client.dll</HintPath>
+      <HintPath>..\Refs\RabbitMQ.Client.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition.CodePlex">
-      <HintPath>..\..\Ref\System.ComponentModel.Composition.CodePlex.dll</HintPath>
+      <HintPath>..\Refs\System.ComponentModel.Composition.CodePlex.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Reflection.Context.CodePlex">
-      <HintPath>..\..\Ref\System.Reflection.Context.CodePlex.dll</HintPath>
+      <HintPath>..\Refs\System.Reflection.Context.CodePlex.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
