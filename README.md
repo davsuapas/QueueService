@@ -1,13 +1,13 @@
 QueueService
 ============
 
-Servicio de processos con RabbitMQ y .NET
+Ejemplo de servicio de processos con RabbitMQ y .NET
 
 
 Objetivos
 ---------
 
-El objetivo principal del servicio de procesos de alto rendimiento consiste en un procesador de lógica de negocio desatendido que se encuentre disponible 24 horas al día.
+El objetivo principal del servicio de procesos es crear una base para un procesador de lógica de negocio desatendido que se encuentre disponible 24 horas al día.
 
 Características principales:
 - El servicio debe ser independiente del host donde va a ser alojado.
