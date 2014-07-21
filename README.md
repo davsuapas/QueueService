@@ -9,7 +9,6 @@ Goals
 The main purpose of the processes service is create a basis for executing business logic that is available 24 hours a day. 
 
 Key Features:
-
      The service must be independent of the host. 
      It should be easily configurable through a configuration xml file. 
      The architecture should be modular to replace easily different parts of the service. 
@@ -27,7 +26,6 @@ Requirements development environment
 ------------------------------------
 
 It has created a development environment based on the Windows 8 operating system and the following tools are installed: 
-
      Microsoft Visual Studio 2010. 
      Managed Extensibility Framework (MEF): Is a composition layer for .NET that improves the flexibility, maintainability and testability of large applications. MEF can be used for third-party plugin extensibility, or it can bring the benefits of a loosely-coupled plugin-like architecture to regular applications.
      RabbitMQ 3.2.4: Trading Software open source message.
