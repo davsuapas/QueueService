@@ -1,35 +1,34 @@
-QueueService
+QueueService 
 ============
 
-Ejemplo de servicio de processos con RabbitMQ y .NET
+Example of processes execution service with RabbitMQ and. NET 
 
+Goals
+-----
 
-Objetivos
----------
+The main purpose of the processes service is create a basis for executing business logic that is available 24 hours a day. 
 
-El objetivo principal del servicio de procesos es crear una base para un procesador de lógica de negocio desatendido que se encuentre disponible 24 horas al día.
+Key Features:
 
-Características principales:
-- El servicio debe ser independiente del host donde va a ser alojado.
-- Debe ser fácilmente configurable a través de un fichero xml de configuración.
-- La arquitectura debe ser modular para sustituir fácilmente diferentes partes del servicio.
-- Debe ser multi-conexión a diferentes servidores de colas.
-- Los procesos de negocio deben ser activados por mensajes de un servidor de colas.
-- Se deben poder ejecutar diferentes procesos de negocio independientes unos de otros.
-- Los procesos de negocio deben ser independientes del servicio de procesos. De tal forma, que deben ser descubiertos automáticamente por el servicio.
-- El servicio debe gestionar eficientemente los mensajes sin sobrecargar el servidor de colas.
-- Los procesos deben ejecutarse de forma paralela aprovechando eficientemente los núcleos de la máquina.
-- La escalabilidad no solo deber ser vertical sino también horizontal.
-- El servicio debe ser tolerante a fallos.
-- El servicio debe poseer características de cierre ordenado.
+     The service must be independent of the host. 
+     It should be easily configurable through a configuration xml file. 
+     The architecture should be modular to replace easily different parts of the service. 
+     Must be multi-connection queues to different servers. 
+     Business processes must be activated by messages from a queue server. 
+     It should be able to run different business processes independent of each other. 
+     Business processes should be independent of the service processes. As such, it should be automatically discovered by the service. 
+     The service must efficiently manage messages without overloading the server queues. 
+     Processes must run efficiently exploiting parallel cores of the machine. 
+     Scalability must be not only vertically but also horizontally. 
+     The service must be fault tolerant. 
+     The service must possess characteristics of orderly shutdown. 
 
-
-Requisitos del entorno de desarrollo
+Requirements development environment
 ------------------------------------
 
-Se ha creado un entorno de desarrollo basado en el sistema operativo Windows 8 y se han instalado las siguientes herramientas:
-- Microsoft Visual Studio 2010 Premium: Microsoft Visual Studio es un entorno de desarrollo integrado para crear soluciones para todo el porfolio de sistemas Windows; soluciones web, servicios web, Windows forms, etc. El entorno incluye editor de código, intelliSense, refactorización de código, depurador, diseñador de arquitecturas y de clases y se encuentra integrado con Microsoft Team System que es un entorno para el desarrollo de soluciones en equipo.
-- RabbitMQ 3.2.4: Software de negociación de mensajes de código abierto.
+It has created a development environment based on the Windows 8 operating system and the following tools are installed: 
 
-
-
+     Microsoft Visual Studio 2010. 
+     Managed Extensibility Framework (MEF): Is a composition layer for .NET that improves the flexibility, maintainability and testability of large applications. MEF can be used for third-party plugin extensibility, or it can bring the benefits of a loosely-coupled plugin-like architecture to regular applications.
+     RabbitMQ 3.2.4: Trading Software open source message.
+     
