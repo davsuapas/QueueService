@@ -3,6 +3,11 @@ QueueService
 
 Example of processes execution service with RabbitMQ and. NET 
 
+Documentation
+-------------
+
+In spanish: http://ejecucion-procesos-rabbitmq-dotnet.blogspot.com.es/2014/07/parte-1-introduccion-y-objetivos.html
+
 Goals
 -----
 
